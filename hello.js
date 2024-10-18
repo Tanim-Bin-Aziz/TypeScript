@@ -1,4 +1,3 @@
 // console.log("hello world");
-
-const country = "Bangladesh";
+var country = "Bangladesh";
 console.log(country);
