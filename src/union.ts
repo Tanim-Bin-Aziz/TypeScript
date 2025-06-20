@@ -20,4 +20,21 @@
     gender: "male",
     bloodGroup: "A+",
   };
+
+  type FrontendDev = {
+    skills: string[];
+    designation1: "Frontend Developer";
+  };
+  type BackendDev = {
+    skills: string[];
+    designation2: "Backend Developer";
+  };
+
+  type FullstackDev = FrontendDev & BackendDev;
+
+  const fullstackDev: FullstackDev = {
+    skills: ["HTML", "CSS", "JS"],
+    designation1: "Frontend Developer",
+    designation2: "Backend Developer",
+  };
 }
