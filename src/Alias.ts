@@ -29,4 +29,12 @@
     gender: "male",
     address: "bangladesh",
   };
+  type UserName = string;
+  type IsAdmin = boolean;
+  const userName: UserName = "Persian";
+  const isAdmin: IsAdmin = true;
+
+  type Add = (num1: number, num2: number) => number;
+
+  const add: Add = (num1, num2) => num1 + num2;
 }
