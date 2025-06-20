@@ -3,18 +3,12 @@
   type Student = {
     name: string;
     age: number;
-    contactNo: string;
+    contactNo?: string;
     gender: string;
     address: string;
   };
 
-  const student1: {
-    name: string;
-    age: number;
-    gender: string;
-    contactNo: string;
-    address: string;
-  } = {
+  const student1: Student = {
     name: "Tanim Bin Aziz",
     age: 24,
     gender: "male",
@@ -22,24 +16,14 @@
     address: "Bangladesh",
   };
 
-  const student2: {
-    name: string;
-    age: number;
-    gender: string;
-    address: string;
-  } = {
+  const student2: Student = {
     name: "chomok",
     age: 25,
     gender: "male",
     address: "bangladesh",
   };
 
-  const student3: {
-    name: string;
-    age: number;
-    gender: string;
-    address: string;
-  } = {
+  const student3: Student = {
     name: "shipon",
     age: 23,
     gender: "male",
