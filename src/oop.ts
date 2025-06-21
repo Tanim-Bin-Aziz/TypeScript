@@ -10,8 +10,12 @@
       this.species = species;
       this.sound = sound;
     }
+    makeSound() {
+      console.log(`The ${this.name} says ${this.sound}`);
+    }
   }
   const dog = new Animal("German Sherpard Bhai", "Dog", "Ghew Ghew");
   const cat = new Animal("maow", "cat", "meow meow");
+  cat.makeSound();
   ///
 }
